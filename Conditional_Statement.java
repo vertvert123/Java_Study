@@ -12,9 +12,12 @@ public class Conditional_Statement { //if문
 
         if (uname.equals("vert") && pwd.equals("123")) {
             System.out.println("OKAY!!-> LOGIN OK");
+            scan.close();
         } else {
             System.out.println("Incorrect");
+            scan.close();
         }
+
     }
     void check() { // 3항연산
         int count = 10;
@@ -42,7 +45,7 @@ public class Conditional_Statement { //if문
                 default:
                     System.out.println("Wrong value");
             }
-
+            scan.close();
         }
 
     }
