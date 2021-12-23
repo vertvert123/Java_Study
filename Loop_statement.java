@@ -13,6 +13,9 @@ public class Loop_statement {
         for (int i = 0; i < people.length; i++) { //for문으로 배열출력
             System.out.println(people[i]);
         }
+        for(String name : people){
+            System.out.println(name);
+        }
 
         while (count > 10) { //while 문
             System.out.println("go");
