@@ -10,7 +10,7 @@ public class Date_type {
 
         String g = "hello world!"; // 문자열은 원시 자료형이아닌 클래스 타입이다.
 
-        
+        System.out.printf("%d %f %f %d %b %c %s",a,b,c,d,e,f,g);
     }
 
 }
