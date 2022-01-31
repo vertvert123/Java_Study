@@ -28,18 +28,18 @@ public class CollectionTest {
         String[] convert2 = c1.toArray(new String[c1.size()]);
 
         //print all data in collection using for loop
-        for (String s : c1){
+        for (String s: c1) {
             System.out.println(s);
         }
 
         //access and print all data in the array which converted from collection
-        for(int i = 0; i<convert2.length; i++){
+        for (int i = 0; i < convert2.length; i++) {
             System.out.println(convert2[i]);
         }
 
         //get Iterator object from collection and access the data
-        Iterator iter = c1.iterator();
-        while(iter.hasNext()){
+        Iterator < String > iter = c1.iterator();
+        while (iter.hasNext()) {
             System.out.println(iter.next());
         }
 
