@@ -24,7 +24,7 @@ public class CollectionTest {
         System.out.println("Size of c1 :" + c1.size());
 
         //convert collection to array
-        Object[] convert1 = c1.toArray();
+        //Object[] convert1 = c1.toArray();
         String[] convert2 = c1.toArray(new String[c1.size()]);
 
         //print all data in collection using for loop
